@@ -38,4 +38,19 @@ fig.update_layout(bargap=0.1)
 fig.show()
 
 
+#plotly histograms with marginals
+fig = px.histogram(event_count_winter, x="Event", title="WINTER OLYMPIC EVENTS OVER THE GENERATIONS", nbins=10, template = "plotly_dark", color_discrete_sequence=['azure'], marginal="rug")
+fig.update_layout(bargap=0.1)
+fig.show()
+
+# plotly - with box-plot
+fig = px.histogram(event_count_winter, x="Event", title="WINTER OLYMPIC EVENTS OVER THE GENERATIONS", nbins=10, template = "plotly_dark", color_discrete_sequence=['azure'], marginal="box")
+fig.update_layout(bargap=0.1)
+fig.show()
+
+# plotly - with violin
+fig = px.histogram(event_count_winter, x="Event", title="WINTER OLYMPIC EVENTS OVER THE GENERATIONS", nbins=10, template = "plotly_dark", color_discrete_sequence=['azure'], marginal="violin")
+fig.update_layout(bargap=0.1)
+fig.show()
+
 
