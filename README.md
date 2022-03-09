@@ -547,7 +547,7 @@
     </td>
     <td class="tg-0pky">
        <h4>Donut chart</h4>
-       <img src="src/pie/Plots/donut_vegalite.png" alt="ph"  width="400px" height="200px">
+       <img src="src/pie/Plots/donut_vegalite_trim.png" alt="ph"  width="400px" height="200px">
                                                                                                    <p>Source:&nbsp;&nbsp; <a href=""><strike>Python</strike></a> &nbsp;&nbsp; <a href="">R</a> &nbsp;&nbsp; <a href="src/pie/donut_chart.jl">Julia</a> </p> 
     </td>
   </tr>
@@ -593,7 +593,333 @@
        <img src="src/bar-charts/plots/sin_bars_makie.png" alt="ph"  width="400px" height="200px">
                                                                                                    <p>Source:&nbsp;&nbsp; <a href=""><strike>Python</strike></a> &nbsp;&nbsp; <a href=""><strike>R</strike></a> &nbsp;&nbsp; <a href="src/bar-charts/sinbars.jl">Julia</a> </p> 
     </td>
+    <td class="tg-0pky">
+       <h4>Population Pyramid</h4>
+       <img src="src/pyramids/Plots/pyramid_vegalite.png" alt="ph"  width="400px" height="200px">
+                                                                                                   <p>Source:&nbsp;&nbsp; <a href="src/pyramids/pop_pyramid.py">Python</a> &nbsp;&nbsp; <a href=""><strike>R</strike></a> &nbsp;&nbsp; <a href="src/pyramids/pop_pyramid.jl">Julia</a> </p> 
+    </td>
+     <td class="tg-0pky">
+       <h4>Error bars</h4>
+       <img src="src/errorbars/Plots/errorbars_makie.png" alt="ph"  width="400px" height="200px">
+                                                                                                   <p>Source:&nbsp;&nbsp; <a href=""><strike>Python</strike></a> &nbsp;&nbsp; <a href=""><strike>R</strike></a> &nbsp;&nbsp; <a href="src/errorbars/errorbars.jl">Julia</a> </p> 
+    </td>
   </tr>
+  <tr>
+  <td class="tg-0pky">
+       <h4>Gantt chart</h4>
+       <img src="src/gantt/Plots/gantt_plotly.png" alt="ph"  width="400px" height="200px">
+                                                                                                   <p>Source:&nbsp;&nbsp; <a href="src/gantt/ganttchart.py"></strike></a> &nbsp;&nbsp; <a href=""><strike>R</strike></a> &nbsp;&nbsp; <a href="src/gantt/ganttchart.jl">Julia</a> </p> 
+    </td>
+    </tr>
+</tbody>
+</table> 
+<table class="tg">
+<thead>
+  <tr>
+    <h2>Areas and Distribution</h2>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky">
+       <h4>Stacked Area plot</h4>
+       <img src="src/area-charts/plots/stacked_area_vegalite.png" alt="ph"  width="400px" height="200px">
+                                                                                                   <p>Source:&nbsp;&nbsp; <a href="src/area-charts/stackedarea.py">Python</a> &nbsp;&nbsp; <a href="src/area-charts/area.R">R</a> &nbsp;&nbsp; <a href="src/area-charts/stacked_area.jl">Julia</a> </p> 
+    </td>
+        <td class="tg-0pky">
+       <h4>Normalized Stacked Area plot</h4>
+       <img src="src/area-charts/plots/norm_stacked_area_vegalite.png" alt="ph"  width="400px" height="200px">
+                                                                                                   <p>Source:&nbsp;&nbsp; <a href=""><strike>Python</strike></a> &nbsp;&nbsp; <a href=""><strike>R</strike></a> &nbsp;&nbsp; <a href="src/area-charts/normalized_stacked_area.jl">Julia</a> </p> 
+    </td>
+     <td class="tg-0pky">
+       <h4>Portfolio Composition </h4>
+       <img src="src/area-charts/plots/portfolio_composition_plot.png" alt="ph"  width="400px" height="200px">
+                                                                                                   <p>Source:&nbsp;&nbsp; <a href=""><strike>Python</strike></a> &nbsp;&nbsp; <a href=""><strike>R</strike></a> &nbsp;&nbsp; <a href="src/area-charts/portfolio_comp.jl">Julia</a> </p> 
+    </td>
+     <td class="tg-0pky">
+       <h4>KDE (Density) Plot</h4>
+       <img src="src/density-plots/plots/displot_kde_curve_only_plotly.png" alt="ph"  width="400px" height="200px">
+                                                                                                   <p>Source:&nbsp;&nbsp; <a href="src/density-plots/densityplots.py">Python</a> &nbsp;&nbsp; <a href="src/density-plots/dens.R">R</a> &nbsp;&nbsp; <a href="src/density-plots/kdeplot.jl">Julia</a> </p> 
+    </td>
+  </tr>
+  <tr>
+   <td class="tg-0pky">
+       <h4>Filled KDE plot</h4>
+       <img src="src/density-plots/plots/makiefilledKDE.png" alt="ph"  width="400px" height="200px">
+                                                                                                   <p>Source:&nbsp;&nbsp; <a href="src/density-plots/densityplots.py">Python</a> &nbsp;&nbsp; <a href=""><strike>R</strike></a> &nbsp;&nbsp; <a href="src/density-plots/kdeplot.jl">Julia</a> </p> 
+    </td>
+    <td class="tg-0pky">
+       <h4>Stacked KDE plot</h4>
+       <img src="src/density-plots/plots/stacked_kde_seaborn.png" alt="ph"  width="400px" height="200px">
+                                                                                                   <p>Source:&nbsp;&nbsp; <a href="src/density-plots/densityplots.py">Python</a> &nbsp;&nbsp; <a href="">R</a> &nbsp;&nbsp; <a href=""><strike>Julia</strike></a> </p> 
+    </td>
+    <td class="tg-0pky">
+       <h4>Frequency Polygon</h4>
+       <img src="src/freqpoly/plots/freq_poly_matplotlib.png" alt="ph"  width="400px" height="200px">
+                                                                                                   <p>Source:&nbsp;&nbsp; <a href="src/freqpoly/freqpoly.py">Python</a> &nbsp;&nbsp; <a href="">R</a> &nbsp;&nbsp; <a href=""><strike>Julia</strike></a> </p> 
+    </td>
+    <td class="tg-0pky">
+       <h4>Histogram</h4>
+       <img src="src/histograms/plots/plotly_ex_hist.png" alt="ph"  width="400px" height="200px">
+                                                                                                   <p>Source:&nbsp;&nbsp; <a href="src/histograms/hist.py">Python</a> &nbsp;&nbsp; <a href="src/histograms/histograms.R">R</a> &nbsp;&nbsp; <a href="src/histograms/hist.jl">Julia</a> </p> 
+    </td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">
+       <h4>Histogram + KDE plot</h4>
+       <img src="src/density-plots/plots/distplot_kde_plotly_ff.png" alt="ph"  width="400px" height="200px">
+                                                                                                   <p>Source:&nbsp;&nbsp; <a href="src/histograms/hist.py">Python</a> &nbsp;&nbsp; <a href=""><strike>R</strike></a> &nbsp;&nbsp; <a href=""><strike>Julia</strike></a> </p> 
+    </td>
+    <td class="tg-0pky">
+       <h4>Histogram + boxplot</h4>
+       <img src="src/histograms/plots/plotly_ex_hist_boxplot.png" alt="ph"  width="400px" height="200px">
+                                                                                                   <p>Source:&nbsp;&nbsp; <a href="src/histograms/hist.py">Python</a> &nbsp;&nbsp; <a href=""><strike>R</strike></a> &nbsp;&nbsp; <a href=""><strike>Julia</strike></a> </p> 
+    </td>
+    <td class="tg-0pky">
+       <h4>Histogram + Violin</h4>
+       <img src="src/histograms/plots/plotly_ex_hist_violin.png" alt="ph"  width="400px" height="200px">
+                                                                                                   <p>Source:&nbsp;&nbsp; <a href="src/histograms/hist.py">Python</a> &nbsp;&nbsp; <a href=""><strike>R</strike></a> &nbsp;&nbsp; <a href=""><strike>Julia</strike></a> </p> 
+    </td>
+    <td class="tg-0pky">
+       <h4>Marginal Histogram</h4>
+       <img src="src/histograms/plots/marginal_hist_matplotlib.png" alt="ph"  width="400px" height="200px">
+                                                                                                   <p>Source:&nbsp;&nbsp; <a href="src/histograms/marginal_hist.py">Python</a> &nbsp;&nbsp; <a href=""><strike>R</strike></a> &nbsp;&nbsp; <a href=""><strike>Julia</strike></a> </p> 
+    </td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">
+       <h4>Box plots</h4>
+       <img src="src/boxplots/Plots/jlPlots_boxplot.png" alt="ph"  width="400px" height="200px">
+                                                                                                   <p>Source:&nbsp;&nbsp; <a href="src/boxplots/boxp.py">Python</a> &nbsp;&nbsp; <a href="">R</a> &nbsp;&nbsp; <a href="src/boxplots/boxplot.jl">Julia</a> </p> 
+    </td>
+    <td class="tg-0pky">
+       <h4>Notched boxplots</h4>
+       <img src="src/boxplots/Plots/makie_boxplots.png" alt="ph"  width="400px" height="200px">
+                                                                                                  <p>Source:&nbsp;&nbsp; <a href="src/boxplots/boxp.py">Python</a> &nbsp;&nbsp; <a href="">R</a> &nbsp;&nbsp; <a href="src/boxplots/boxplot.jl">Julia</a> </p> 
+    </td>
+    <td class="tg-0pky">
+       <h4>Normal and Notched boxplots</h4>
+       <img src="src/boxplots/Plots/matplotlib_boxplots.png" alt="ph"  width="400px" height="200px">
+                                                                                                   <p>Source:&nbsp;&nbsp; <a href="src/boxplots/boxp.py">Python</a> &nbsp;&nbsp; <a href="">R</a> &nbsp;&nbsp; <a href="src/boxplots/boxplot.jl">Julia</a> </p> 
+    </td>
+    <td class="tg-0pky">
+       <h4>Marginal Boxplots</h4>
+       <img src="src/boxplots/Plots/marginal_boxplot_seaborn.png" alt="ph"  width="400px" height="200px">
+                                                                                                   <p>Source:&nbsp;&nbsp; <a href="src/boxplots/marginal_boxplot.py">Python</a> &nbsp;&nbsp; <a href="">R</a> &nbsp;&nbsp; <a href=""><strike>Julia</strike></a> </p> 
+    </td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">
+       <h4>Violin plot</h4>
+       <img src="src/violinplots/Plots/violin_plotly.png" alt="ph"  width="400px" height="200px">
+                                                                                                   <p>Source:&nbsp;&nbsp; <a href="src/violinplots/violin.py">Python</a> &nbsp;&nbsp; <a href="">R</a> &nbsp;&nbsp; <a href="src/violinplots/violin.jl">Julia</a> </p> 
+    </td>
+    <td class="tg-0pky">
+       <h4>Box + Violin plot</h4>
+       <img src="src/violinplots/Plots/box_violin.png" alt="ph"  width="400px" height="200px">
+                                                                                                   <p>Source:&nbsp;&nbsp; <a href=""><strike>Python</strike></a> &nbsp;&nbsp; <a href="">R</a> &nbsp;&nbsp; <a href="src/violinplots/box_violin.jl">Julia</a> </p> 
+    </td>
+  </tr>
+</tbody>
+</table> 
+<table class="tg">
+<thead>
+  <tr>
+    <h2>Change over time and Time Series</h2>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky">
+       <h4>Time Series</h4>
+       <img src="src/timeseries/Plots/time_series_matplotlib.png" alt="ph"  width="400px" height="200px">
+                                                                                                   <p>Source:&nbsp;&nbsp; <a href="src/timeseries/timeseries.py">Python</a> &nbsp;&nbsp; <a href=""><strike>R</strike></a> &nbsp;&nbsp; <a href="src/timeseries/timeseries.jl">Julia</a> </p> 
+    </td>
+    <td class="tg-0pky">
+       <h4>Annotated Time series</h4>
+       <img src="src/timeseries/Plots/annotated_time_series_matplotlib.png" alt="ph"  width="400px" height="200px">
+                                                                                                   <p>Source:&nbsp;&nbsp; <a href="src/timeseries/annotated_timeseries.py">Python</a> &nbsp;&nbsp; <a href=""><strike>R</strike></a> &nbsp;&nbsp; <a href=""><strike>Julia</strike></a> </p> 
+    </td>
+    <td class="tg-0pky">
+       <h4>Time Series Histogram</h4>
+       <img src="src/timeseries/Plots/timeseries_hist_matplotlib.png" alt="ph"  width="400px" height="200px">
+                                                                                                   <p>Source:&nbsp;&nbsp; <a href="src/timeseries/timeseries_hist.py">Python</a> &nbsp;&nbsp; <a href=""><strike>R</strike></a> &nbsp;&nbsp; <a href=""><strike>Julia</strike></a> </p> 
+    </td>
+    <td class="tg-0pky">
+       <h4>Candle Sticks</h4>
+       <img src="src/timeseries/Plots/candlesticks_makie.png" alt="ph"  width="400px" height="200px">
+                                                                                                   <p>Source:&nbsp;&nbsp; <a href=""><strike>Python</strike></a> &nbsp;&nbsp; <a href=""><strike>R</strike></a> &nbsp;&nbsp; <a href="src/timeseries/candlesticks.jl">Julia</a> </p> 
+    </td>
+  </tr>
+</tbody>
+</table> 
+</table> 
+<table class="tg">
+<thead>
+  <tr>
+    <h2>Polygons, Spirals and Hyperbolae</h2>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky">
+       <h4>Archimedian Spirals</h4>
+       <img src="src/polygons/Plots/archimedian.png" alt="ph"  width="400px" height="200px">
+                                                                                                   <p>Source:&nbsp;&nbsp; <a href=""><strike>Python</strike></a> &nbsp;&nbsp; <a href=""><strike>R</strike></a> &nbsp;&nbsp; <a href="src/polygons/archimedian.jl">Julia</a> </p> 
+    </td>
+    <td class="tg-0pky">
+       <h4>Logarithmic Spirals</h4>
+       <img src="src/polygons/Plots/logarithmic.png" alt="ph"  width="400px" height="200px">
+                                                                                                 <p>Source:&nbsp;&nbsp; <a href=""><strike>Python</strike></a> &nbsp;&nbsp; <a href=""><strike>R</strike></a> &nbsp;&nbsp; <a href="src/polygons/logarithmic.jl">Julia</a> </p> 
+    </td>
+    <td class="tg-0pky">
+       <h4>Hypotrochoid</h4>
+       <img src="src/polygons/Plots/hypotrochoid.png" alt="ph"  width="400px" height="200px">
+                                                                                                 <p>Source:&nbsp;&nbsp; <a href=""><strike>Python</strike></a> &nbsp;&nbsp; <a href=""><strike>R</strike></a> &nbsp;&nbsp; <a href="src/polygons/hypotrochoid.jl">Julia</a> </p> 
+    </td>
+    <td class="tg-0pky">
+       <h4>Koch Snowflake</h4>
+       <img src="src/polygons/Plots/koch_snowflake_matplotlib.png" alt="ph"  width="400px" height="200px">
+                                                                                                   <p>Source:&nbsp;&nbsp; <a href="src/polygons/koch_snowflake.py">Python</a> &nbsp;&nbsp; <a href=""><strike>R</strike></a> &nbsp;&nbsp; <a href=""><strike>Julia</strike></a> </p> 
+    </td>
+  </tr>
+   <tr>
+    <td class="tg-0pky">
+       <h4>Circular N-gons</h4>
+       <img src="src/polygons/Plots/n-gons_light.png" alt="ph"  width="400px" height="200px">
+                                                                                                   <p>Source:&nbsp;&nbsp; <a href=""><strike>Python</strike></a> &nbsp;&nbsp; <a href=""><strike>R</strike></a> &nbsp;&nbsp; <a href="src/polygons/ngons_circular.jl">Julia</a> </p> 
+    </td>
+    <td class="tg-0pky">
+       <h4>Triangular N-gons</h4>
+       <img src="src/polygons/Plots/ngons_makie.png" alt="ph"  width="400px" height="200px">
+                                                                                                 <p>Source:&nbsp;&nbsp; <a href=""><strike>Python</strike></a> &nbsp;&nbsp; <a href=""><strike>R</strike></a> &nbsp;&nbsp; <a href="src/polygons/ngons_triangular.jl">Julia</a> </p> 
+    </td>
+    <td class="tg-0pky">
+       <h4>Random-N-gons</h4>
+       <img src="src/polygons/Plots/random_ngons.png" alt="ph"  width="400px" height="200px">
+                                                                                                 <p>Source:&nbsp;&nbsp; <a href=""><strike>Python</strike></a> &nbsp;&nbsp; <a href=""><strike>R</strike></a> &nbsp;&nbsp; <a href="src/polygons/rand_ngons.jl">Julia</a> </p> 
+    </td>
+    <td class="tg-0pky">
+       <h4>Offsetting Polygons</h4>
+       <img src="src/polygons/Plots/offsettingpoly.png" alt="ph"  width="400px" height="200px">
+                                                                                                   <p>Source:&nbsp;&nbsp; <a href=""><strike>Python</strike></a> &nbsp;&nbsp; <a href=""><strike>R</strike></a> &nbsp;&nbsp; <a href="src/polygons/offsetting_polygons.jl">Julia</a> </p> 
+    </td>
+  </tr>
+   <tr>
+    <td class="tg-0pky">
+       <h4>Smoothing Polygons</h4>
+       <img src="src/polygons/Plots/smoothingpoly.png" alt="ph"  width="400px" height="200px">
+                                                                                                   <p>Source:&nbsp;&nbsp; <a href=""><strike>Python</strike></a> &nbsp;&nbsp; <a href=""><strike>R</strike></a> &nbsp;&nbsp; <a href="src/polygons/smoothing_polygons.jl">Julia</a> </p> 
+    </td>
+    <td class="tg-0pky">
+       <h4>Spirograph</h4>
+       <img src="src/spirograph/Plots/spirograph.png" alt="ph"  width="400px" height="200px">
+                                                                                                 <p>Source:&nbsp;&nbsp; <a href=""><strike>Python</strike></a> &nbsp;&nbsp; <a href=""><strike>R</strike></a> &nbsp;&nbsp; <a href="src/spirograph/spiro.jl">Julia</a> </p> 
+    </td>
+    <td class="tg-0pky">
+       <h4>Hyperbolic Pencil</h4>
+       <img src="src/hyperbolae/Plots/hyperbolic_pencil.png" alt="ph"  width="400px" height="200px">
+                                                                                                 <p>Source:&nbsp;&nbsp; <a href=""><strike>Python</strike></a> &nbsp;&nbsp; <a href=""><strike>R</strike></a> &nbsp;&nbsp; <a href="src/hyperbolae/pencil.jl">Julia</a> </p> 
+    </td>
+    <td class="tg-0pky">
+       <h4>Hyperbolic Graph</h4>
+       <img src="src/hyperbolae/Plots/hyperbolic_graph.png" alt="ph"  width="400px" height="200px">
+                                                                                                   <p>Source:&nbsp;&nbsp; <a href=""><strike>Python</strike></a> &nbsp;&nbsp; <a href=""><strike>R</strike></a> &nbsp;&nbsp; <a href="src/hyperbolae/hyperbolic_graph.jl">Julia</a> </p> 
+    </td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">
+       <h4>Star of David</h4>
+       <img src="src/hyperbolae/Plots/star_of_david.png" alt="ph"  width="400px" height="200px">
+                                                                                                   <p>Source:&nbsp;&nbsp; <a href=""><strike>Python</strike></a> &nbsp;&nbsp; <a href=""><strike>R</strike></a> &nbsp;&nbsp; <a href="src/hyperbolae/star.jl">Julia</a> </p> 
+    </td>
+    <td class="tg-0pky">
+       <h4>Concentric Pattern</h4>
+       <img src="src/hyperbolae/Plots/hyperbolic_circles.png" alt="ph"  width="400px" height="200px">
+                                                                                                 <p>Source:&nbsp;&nbsp; <a href=""><strike>Python</strike></a> &nbsp;&nbsp; <a href=""><strike>R</strike></a> &nbsp;&nbsp; <a href="src/hyperbolae/hyperbolic_circles.jl">Julia</a> </p> 
+    </td>
+    <td class="tg-0pky">
+       <h4>Dual Tesselation</h4>
+       <img src="src/hyperbolae/Plots/dual_tess.png" alt="ph"  width="400px" height="200px">
+                                                                                                 <p>Source:&nbsp;&nbsp; <a href=""><strike>Python</strike></a> &nbsp;&nbsp; <a href=""><strike>R</strike></a> &nbsp;&nbsp; <a href="src/hyperbolae/dual_tess.jl">Julia</a> </p> 
+    </td>
+  </tr>
+</tbody>
+</table> 
+<br/>
+<table class="tg">
+<thead>
+  <tr>
+    <h2>Contours and Topography</h2>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky">
+       <h4>Contour plot</h4>
+       <img src="src/contours/plots/contours_makie.png" alt="ph"  width="400px" height="200px">
+                                                                                                   <p>Source:&nbsp;&nbsp; <a href="src/contours/contours.py">Python</a> &nbsp;&nbsp; <a href=""><strike>R</strike></a> &nbsp;&nbsp; <a href="src/contours/contours.jl">Julia</a> </p> 
+    </td>
+    <td class="tg-0pky">
+       <h4>Filled Contours</h4>
+       <img src="src/contours/plots/matplotlib_contourf.png" alt="ph"  width="400px" height="200px">
+                                                                                                 <p>Source:&nbsp;&nbsp; <a href="src/contours/contourf.py">Python</a> &nbsp;&nbsp; <a href=""><strike>R</strike></a> &nbsp;&nbsp; <a href="src/contours/contourf.jl">Julia</a> </p> 
+    </td>
+    <td class="tg-0pky">
+       <h4>Contour heatmap</h4>
+       <img src="src/contours/plots/heatmap_contour_makie.png" alt="ph"  width="400px" height="200px">
+                                                                                                 <p>Source:&nbsp;&nbsp; <a href=""><strike>Python</strike></a> &nbsp;&nbsp; <a href=""><strike>R</strike></a> &nbsp;&nbsp; <a href="src/contours/contour_heatmap.jl">Julia</a> </p> 
+    </td>
+    <td class="tg-0pky">
+       <h4>Contour qubit</h4>
+       <img src="src/contours/plots/contour_qubit.png" alt="ph"  width="400px" height="200px">
+                                                                                                   <p>Source:&nbsp;&nbsp; <a href=""><strike>Python</strike></a> &nbsp;&nbsp; <a href=""><strike>R</strike></a> &nbsp;&nbsp; <a href="src/contours/contour_qubit.jl">Julia</a> </p> 
+    </td>
+  </tr>
+   <tr>
+    <td class="tg-0pky">
+       <h4>World Countries</h4>
+       <img src="src/geo-field-countries/Plots/geoFieldCountries.png" alt="ph"  width="400px" height="200px">
+                                                                                                   <p>Source:&nbsp;&nbsp; <a href=""><strike>Python</strike></a> &nbsp;&nbsp; <a href=""><strike>R</strike></a> &nbsp;&nbsp; <a href="src/geo-field-countries/countries.jl">Julia</a> </p> 
+    </td>
+    <td class="tg-0pky">
+       <h4>World Population Estimation</h4>
+       <img src="src/geo-field-countries/Plots/world_pop_est_countries_geopandas.png" alt="ph"  width="400px" height="200px">
+                                                                                                 <p>Source:&nbsp;&nbsp; <a href="src/geo-field-countries/countries_pop.py">Python</a> &nbsp;&nbsp; <a href=""><strike>R</strike></a> &nbsp;&nbsp; <a href=""><strike>Julia</strike></a> </p> 
+    </td>
+    <td class="tg-0pky">
+       <h4>London Tube Lines</h4>
+       <img src="src/london-tube-lines/Plots/london_tubes.png" alt="ph"  width="400px" height="200px">
+                                                                                                 <p>Source:&nbsp;&nbsp; <a href=""><strike>Python</strike></a> &nbsp;&nbsp; <a href=""><strike>R</strike></a> &nbsp;&nbsp; <a href="src/london-tube-lines/london_tubes.jl">Julia</a> </p> 
+    </td>
+    <td class="tg-0pky">
+       <h4>Submarine cables</h4>
+       <img src="src/submarine-cables/Plots/submarine_cables.png" alt="ph"  width="400px" height="200px">
+                                                                                                   <p>Source:&nbsp;&nbsp; <a href=""><strike>Python</strike></a> &nbsp;&nbsp; <a href=""><strike>R</strike></a> &nbsp;&nbsp; <a href="src/submarine-cables/sub-cables.jl">Julia</a> </p> 
+    </td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">
+       <h4>Proj4 to Sphere</h4>
+       <img src="src/sphere/Plots/proj4tosphere.png" alt="ph"  width="400px" height="200px">
+                                                                                                   <p>Source:&nbsp;&nbsp; <a href=""><strike>Python</strike></a> &nbsp;&nbsp; <a href=""><strike>R</strike></a> &nbsp;&nbsp; <a href="src/sphere/proj4tosphere.jl">Julia</a> </p> 
+    </td>
+    <td class="tg-0pky">
+       <h4>Lambert Projection</h4>
+       <img src="src/sphere/Plots/lambert_proj.png" alt="ph"  width="400px" height="200px">
+                                                                                                 <p>Source:&nbsp;&nbsp; <a href="src/sphere/geog_proj.py">Python</a> &nbsp;&nbsp; <a href=""><strike>R</strike></a> &nbsp;&nbsp; <a href=""><strike>Julia</strike></a> </p> 
+    </td>
+    <td class="tg-0pky">
+       <h4>Aitoff Projection</h4>
+       <img src="src/sphere/Plots/aitoff_proj.png" alt="ph"  width="400px" height="200px">
+                                                                                                 <p>Source:&nbsp;&nbsp; <a href="src/sphere/geog_proj.py">Python</a> &nbsp;&nbsp; <a href=""><strike>R</strike></a> &nbsp;&nbsp; <a href=""><strike>Julia</strike></a> </p> 
+    </td>
+    <td class="tg-0pky">
+       <h4>Mollweide Projection</h4>
+       <img src="src/sphere/Plots/mollweide_proj.png" alt="ph"  width="400px" height="200px">
+                                                                                                 <p>Source:&nbsp;&nbsp; <a href="src/sphere/geog_proj.py">Python</a> &nbsp;&nbsp; <a href=""><strike>R</strike></a> &nbsp;&nbsp; <a href=""><strike>Julia</strike></a> </p> 
+    </td>
+    </tr>
 </tbody>
 </table> 
   </html>
