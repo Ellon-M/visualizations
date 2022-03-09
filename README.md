@@ -65,7 +65,7 @@
     <td class="tg-0pky">
        <h4>Line Plot</h4>
        <img src="src/lines/Plots/lineplots.png" alt="ph"  width="400px" height="200px">
-                                                                                                   <p>Source:&nbsp;&nbsp; <a href=""><strike>Python</strike></a> &nbsp;&nbsp; <a href="">R</a> &nbsp;&nbsp; <a href="src/lines/lineplots.jl">Julia</a> </p> 
+                                                                                                   <p>Source:&nbsp;&nbsp; <a href=""><strike>Python</strike></a> &nbsp;&nbsp; <a href="src/lines/lines.R">R</a> &nbsp;&nbsp; <a href="src/lines/lineplots.jl">Julia</a> </p> 
     </td>
     <td class="tg-0pky">
        <h4>Line Plot Subplots</h4>
@@ -358,7 +358,7 @@
     <td class="tg-0pky">
        <h4>Heatmap</h4>
        <img src="src/heatmaps/plots/makie_heatmap.png" alt="ph"  width="400px" height="200px">
-                                                                                                   <p>Source:&nbsp;&nbsp; <a href="src/heatmaps/heatmaps.py">Python/a> &nbsp;&nbsp; <a href="">R</a> &nbsp;&nbsp; <a href="src/heatmaps/heatmap.jl">Julia</a> </p> 
+                                                                                                   <p>Source:&nbsp;&nbsp; <a href="src/heatmaps/heatmaps.py">Python</a> &nbsp;&nbsp; <a href="src/heatmaps/heatmap.R">R</a> &nbsp;&nbsp; <a href="src/heatmaps/heatmap.jl">Julia</a> </p> 
     </td>
      <td class="tg-0pky">
        <h4>Annotated Heatmap</h4>
@@ -424,7 +424,7 @@
     <td class="tg-0pky">
        <h4>Bubble plot</h4>
        <img src="src/bubbleplots/Plots/bubble_jl.png" alt="ph"  width="400px" height="200px">
-                                                                                                   <p>Source:&nbsp;&nbsp; <a href="src/bubbleplots/bubble.py">Python</a> &nbsp;&nbsp; <a href=""><strike>R</strike></a> &nbsp;&nbsp; <a href="src/bubbleplots/bubble.jl">Julia</a> </p> 
+                                                                                                   <p>Source:&nbsp;&nbsp; <a href="src/bubbleplots/bubble.py">Python</a> &nbsp;&nbsp; <a href="src/bubbleplots/bubble.R">R</a> &nbsp;&nbsp; <a href="src/bubbleplots/bubble.jl">Julia</a> </p> 
     </td>
     <td class="tg-0pky">
        <h4>Collatz Conjenture</h4>
@@ -440,6 +440,18 @@
        <h4>Quiver</h4>
        <img src="src/quiver/Plots/quiver_matplotlib.png" alt="ph"  width="400px" height="200px">
                                                                                                    <p>Source:&nbsp;&nbsp; <a href="src/quiver/quiver.py">Python</a> &nbsp;&nbsp; <a href=""><strike>R</strike></a> &nbsp;&nbsp; <a href="src/quiver/quiver.jl">Julia</a> </p> 
+    </td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">
+       <h4>Heatmap + Dendrogram</h4>
+       <img src="src/heatmaps/plots/heat + dendrogram.png" alt="ph"  width="400px" height="200px">
+                                                                                                   <p>Source:&nbsp;&nbsp; <a href=""><strike>Python</strike></a> &nbsp;&nbsp; <a href="src/heatmaps/heatmap.R">R</a> &nbsp;&nbsp; <a href=""><strike>Julia</strike></a> </p> 
+    </td>
+    <td class="tg-0pky">
+       <h4>Beeswarm</h4>
+       <img src="src/beeswarm/Plots/beeswarm-group_R.png" alt="ph"  width="400px" height="200px">
+                                                                                                   <p>Source:&nbsp;&nbsp; <a href=""><strike>Python</strike></a> &nbsp;&nbsp; <a href="src/beeswarm/beeswarm.R">R</a> &nbsp;&nbsp; <a href=""><strike>Julia</strike></a> </p> 
     </td>
   </tr>
 </tbody>
@@ -477,7 +489,7 @@
    <td class="tg-0pky">
        <h4>Wind Rose</h4>
        <img src="src/polarplots/Plots/windrose.png" alt="ph"  width="400px" height="200px">
-                                                                                                   <p>Source:&nbsp;&nbsp; <a href="src/polarplots/windrose.py">Python</a> &nbsp;&nbsp; <a href=""><strike>R</strike></a> &nbsp;&nbsp; <a href=""><strike>Julia</strike></a> </p> 
+                                                                                                   <p>Source:&nbsp;&nbsp; <a href="src/polarplots/windrose.py">Python</a> &nbsp;&nbsp; <a href="src/polarplots/windrose.R">R</a> &nbsp;&nbsp; <a href=""><strike>Julia</strike></a> </p> 
     </td>
     <td class="tg-0pky">
        <h4>Polar bars</h4>
@@ -492,7 +504,7 @@
     <td class="tg-0pky">
        <h4>Polar Lines</h4>
        <img src="src/polarplots/Plots/polarlines.png" alt="ph"  width="400px" height="200px">
-                                                                                                   <p>Source:&nbsp;&nbsp; <a href="src/polarplots/polarlines.py">Python</a> &nbsp;&nbsp; <a href=""><strike>R</strike></a> &nbsp;&nbsp; <a href=""><strike>Julia</strike></a> </p> 
+                                                                                                   <p>Source:&nbsp;&nbsp; <a href="src/polarplots/polarlines.py">Python</a> &nbsp;&nbsp; <a href="src/polarplots/linepolar.R">R</a> &nbsp;&nbsp; <a href=""><strike>Julia</strike></a> </p> 
     </td>
   </tr>
   <tr>
@@ -543,12 +555,12 @@
     <td class="tg-0pky">
        <h4>Pie chart</h4>
        <img src="src/pie/Plots/makie_pie.png" alt="ph"  width="400px" height="200px">
-                                                                                                   <p>Source:&nbsp;&nbsp; <a href="src/pie/piecharts.py">Python</a> &nbsp;&nbsp; <a href="">R</a> &nbsp;&nbsp; <a href="src/pie/piecharts.jl">Julia</a> </p> 
+                                                                                                   <p>Source:&nbsp;&nbsp; <a href="src/pie/piecharts.py">Python</a> &nbsp;&nbsp; <a href="src/pie/pie.R">R</a> &nbsp;&nbsp; <a href="src/pie/piecharts.jl">Julia</a> </p> 
     </td>
     <td class="tg-0pky">
        <h4>Donut chart</h4>
        <img src="src/pie/Plots/donut_vegalite_trim.png" alt="ph"  width="400px" height="200px">
-                                                                                                   <p>Source:&nbsp;&nbsp; <a href=""><strike>Python</strike></a> &nbsp;&nbsp; <a href="">R</a> &nbsp;&nbsp; <a href="src/pie/donut_chart.jl">Julia</a> </p> 
+                                                                                                   <p>Source:&nbsp;&nbsp; <a href=""><strike>Python</strike></a> &nbsp;&nbsp; <a href="src/pie/donut.R">R</a> &nbsp;&nbsp; <a href="src/pie/donut_chart.jl">Julia</a> </p> 
     </td>
   </tr>
 </tbody>
@@ -608,7 +620,7 @@
   <td class="tg-0pky">
        <h4>Gantt chart</h4>
        <img src="src/gantt/Plots/gantt_plotly.png" alt="ph"  width="400px" height="200px">
-                                                                                                   <p>Source:&nbsp;&nbsp; <a href="src/gantt/ganttchart.py"></strike></a> &nbsp;&nbsp; <a href=""><strike>R</strike></a> &nbsp;&nbsp; <a href="src/gantt/ganttchart.jl">Julia</a> </p> 
+                                                                                                   <p>Source:&nbsp;&nbsp; <a href="src/gantt/ganttchart.py">Python</a> &nbsp;&nbsp; <a href="src/gantt/gantt.R">R</a> &nbsp;&nbsp; <a href="src/gantt/ganttchart.jl">Julia</a> </p> 
     </td>
     </tr>
 </tbody>
@@ -656,7 +668,7 @@
     <td class="tg-0pky">
        <h4>Frequency Polygon</h4>
        <img src="src/freqpoly/plots/freq_poly_matplotlib.png" alt="ph"  width="400px" height="200px">
-                                                                                                   <p>Source:&nbsp;&nbsp; <a href="src/freqpoly/freqpoly.py">Python</a> &nbsp;&nbsp; <a href="">R</a> &nbsp;&nbsp; <a href=""><strike>Julia</strike></a> </p> 
+                                                                                                   <p>Source:&nbsp;&nbsp; <a href="src/freqpoly/freqpoly.py">Python</a> &nbsp;&nbsp; <a href="src/freqpoly/freqpolygon.R">R</a> &nbsp;&nbsp; <a href=""><strike>Julia</strike></a> </p> 
     </td>
     <td class="tg-0pky">
        <h4>Histogram</h4>
@@ -712,7 +724,7 @@
     <td class="tg-0pky">
        <h4>Violin plot</h4>
        <img src="src/violinplots/Plots/violin_plotly.png" alt="ph"  width="400px" height="200px">
-                                                                                                   <p>Source:&nbsp;&nbsp; <a href="src/violinplots/violin.py">Python</a> &nbsp;&nbsp; <a href="">R</a> &nbsp;&nbsp; <a href="src/violinplots/violin.jl">Julia</a> </p> 
+                                                                                                   <p>Source:&nbsp;&nbsp; <a href="src/violinplots/violin.py">Python</a> &nbsp;&nbsp; <a href="src/violinplots/violinplot.R">R</a> &nbsp;&nbsp; <a href="src/violinplots/violin.jl">Julia</a> </p> 
     </td>
     <td class="tg-0pky">
        <h4>Box + Violin plot</h4>
