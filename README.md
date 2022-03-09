@@ -1,5 +1,29 @@
 # Finding Stories in Data...
 
+2-Dimensional Data Visualization.
+
+*Breathing life into the dust of numerics and empirical-statistical material.*
+
+<hr/>
+
+***Ecosystems Utilized***: 
+
+**Backends**: 
+
+PlotlyJS, Matplotlib, Bokeh, GR
+
+**Interfaces**:
+
+**Python** -> Pyplot, Seaborn, Plotly
+
+**R**-> ggplot, Plotly
+
+**Julia**-> JLPlots, VegaLite, Luxor, Makie, Gadfly, Plotly
+            
+
+
+
+
 <html>
 <table class="tg">
 <thead>
